@@ -1,5 +1,5 @@
 <script setup>
-
+import TabBar from "../components/TabBar.vue";
 </script>
 
 <template>
@@ -13,6 +13,12 @@
     <h1 class="Hello">
       Hello Everyone!
     </h1>
+  </div>
+
+  <div class="footer">
+    <footer>
+      <TabBar/>
+    </footer>
   </div>
 </template>
 
