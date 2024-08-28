@@ -17,12 +17,6 @@ import TabBar from "../TabBar.vue";
       </h1>
     </div>
 
-    <div class="footer fixed-element">
-      <footer>
-        <TabBar/>
-      </footer>
-    </div>
-
   </div>
 </template>
 
