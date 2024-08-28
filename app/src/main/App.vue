@@ -1,5 +1,6 @@
 <script setup>
 import HomePage from "../components/home/HomePage.vue";
+import ProfilePage from "../components/profile/ProfilePage.vue";
 </script>
 
 <script>
