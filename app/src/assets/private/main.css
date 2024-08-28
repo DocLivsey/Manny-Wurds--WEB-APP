@@ -15,3 +15,12 @@ h1 {
     text-align: center;
     padding: 3%;
 }
+.footer {
+    display: flex;
+    margin-top: 78vh;
+}
+
+.fixed-element {
+    position: fixed;
+    width: 100%;
+}
