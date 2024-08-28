@@ -2,6 +2,16 @@
 import TabBar from "../components/TabBar.vue";
 </script>
 
+<script>
+export default {
+  data() {
+    return {
+
+    }
+  }
+}
+</script>
+
 <template>
   <div class="home-view">
 
