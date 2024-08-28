@@ -17,7 +17,7 @@ h1 {
 }
 .footer {
     display: flex;
-    margin-top: 78vh;
+    bottom: 0;
 }
 
 .fixed-element {
