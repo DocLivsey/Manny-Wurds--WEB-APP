@@ -10,20 +10,12 @@
   </div>
 
   <div class="main">
-    <h1>
+    <h1 class="Hello">
       Hello Everyone!
     </h1>
   </div>
 </template>
 
 <style scoped>
-
-* {
-  margin: 0;
-}
-
-.header {
-  background-color: #2c3e50;
-}
 
 </style>
