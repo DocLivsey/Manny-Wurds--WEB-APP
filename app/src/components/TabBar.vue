@@ -1,17 +1,29 @@
-<script setup>
+<script>
+  export default {
+    data () {
+      return {
 
+      }
+    }
+  }
 </script>
 
 <template>
   <div class="tab-bar">
     <div class="bar">
-      <img alt="home.png" src="../assets/public/_TabBar-home.png">
+      <button class="tab-button">
+        <img alt="home.png" src="../assets/public/_TabBar-home.png">
+      </button>
     </div>
     <div class="bar">
-      <img alt="label.png" src="../assets/public/_TabBar-label.png">
+      <button class="tab-button">
+        <img alt="label.png" src="../assets/public/_TabBar-label.png">
+      </button>
     </div>
     <div class="bar">
-      <img alt="profile.png" src="../assets/public/_TabBar-profile.png">
+      <button class="tab-button">
+        <img alt="profile.png" src="../assets/public/_TabBar-profile.png">
+      </button>
     </div>
   </div>
 </template>
@@ -21,5 +33,10 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+  }
+  .tab-button {
+    padding: 0;
+    background-color: transparent;
+    border-color: transparent;
   }
 </style>
