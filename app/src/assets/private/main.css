@@ -5,7 +5,7 @@
     --main-theme-gradient-top-color: #FFFFFF;
     --main-theme-gradient-bottom-color: #00D1FF;
     --auth-form-backgound-color: #C7F5FF;
-    --font: 'Gilroy Bold', sans-serif;
+    --auth-form-font: 'Gilroy Bold', sans-serif;
 }
 .header {
     background-color: #2c3e50;
