@@ -1,27 +1,27 @@
-<script>
-  export default {
-    data () {
-      return {
+<script setup>
+import { defineEmits } from 'vue';
 
-      }
-    }
-  }
+const emit = defineEmits(['change-page']);
+
+const goToPage = (page) => {
+  emit('change-page', page);
+};
 </script>
 
 <template>
   <div class="tab-bar">
     <div class="bar">
-      <button class="tab-button">
+      <button @click="goToPage('HomePage')" class="tab-button">
         <img alt="home.png" src="../assets/public/_TabBar-home.png">
       </button>
     </div>
     <div class="bar">
-      <button class="tab-button">
+      <button @click="" class="tab-button">
         <img alt="label.png" src="../assets/public/_TabBar-label.png">
       </button>
     </div>
     <div class="bar">
-      <button class="tab-button">
+      <button @click="goToPage('ProfilePage')" class="tab-button">
         <img alt="profile.png" src="../assets/public/_TabBar-profile.png">
       </button>
     </div>

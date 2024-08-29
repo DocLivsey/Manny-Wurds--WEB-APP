@@ -1,37 +1,36 @@
 <script>
-import { ref } from 'vue'
-import HomePage from "../components/home/HomePage.vue";
-import ProfilePage from "../components/profile/ProfilePage.vue";
-import {defineComponent} from "vue";
-import TabBar from "../components/TabBar.vue";
+  import { defineComponent, ref } from 'vue';
+  import TabBar from '../components/TabBar.vue';
+  import HomePage from '../components/home/HomePage.vue';
+  import ProfilePage from '../components/profile/ProfilePage.vue';
 
-export default defineComponent({
-  components: {TabBar}
-})
+  export default defineComponent({
+    components: {
+      TabBar,
+      ProfilePage,
+      HomePage,
+    },
+    setup() {
+      const currentPage = ref('HomePage');
 
+      const changePage = (page) => {
+        currentPage.value = page;
+      };
 
-const configuration = {
-  home: {
-    component: HomePage,
-  },
-  profile: {
-    component: ProfilePage,
-  }
-}
-
-const selected = ref('text')
+      return {
+        currentPage,
+        changePage,
+      };
+    },
+  });
 </script>
 
 <template>
-  <component
-  :is="configuration[selected].component"
-  >
-
-  </component>
+  <component :is="currentPage" ></component>
 
   <div class="footer fixed-element">
     <footer>
-      <TabBar/>
+      <TabBar @change-page="changePage" />
     </footer>
   </div>
 </template>
