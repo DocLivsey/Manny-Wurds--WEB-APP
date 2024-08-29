@@ -11,5 +11,8 @@
 </template>
 
 <style scoped>
-
+button {
+  background-color: transparent;
+  border-color: transparent;
+}
 </style>
