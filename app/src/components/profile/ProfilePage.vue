@@ -4,10 +4,19 @@ import MenuButton from "./buttons/MenuButton.vue";
 </script>
 
 <template>
-  <MenuButton/>
-  <ProfileIcon/>
+  <div class="profile-header">
+    <header>
+      <MenuButton/>
+      <ProfileIcon/>
+    </header>
+  </div>
 </template>
 
 <style scoped>
-
+header {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: 5vh;
+}
 </style>

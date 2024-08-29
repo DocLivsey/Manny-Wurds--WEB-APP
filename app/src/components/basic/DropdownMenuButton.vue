@@ -8,11 +8,24 @@ defineProps({
 </script>
 
 <template>
-  <div class="dropdown-menu" v-for="menu_item in menu_list">
-    {{ menu_item }}
-  </div>
+  <select name="menu">
+    <option
+        v-for="menu_item in menu_list"
+        :value="menu_item">
+      {{ menu_item }}
+    </option>
+  </select>
 </template>
 
 <style scoped>
-
+select {
+  background: transparent url("../../assets/public/icon _Bars icon_.png") no-repeat !important;
+  border-color: transparent;
+  color: transparent;
+}
+option {
+  background-color: var(--profile-menu-backgroung-color);
+  color: #FFFFFF;
+  font-family: 'SF Pro Display', sans-serif;
+}
 </style>
