@@ -3,12 +3,14 @@
   import TabBar from '../components/TabBar.vue';
   import HomePage from '../components/home/HomePage.vue';
   import ProfilePage from '../components/profile/ProfilePage.vue';
+  import MainMenuPage from "../components/game/MainMenuPage.vue";
 
   export default defineComponent({
     components: {
       TabBar,
       ProfilePage,
       HomePage,
+      MainMenuPage,
     },
     setup() {
       const currentPage = ref('HomePage');
