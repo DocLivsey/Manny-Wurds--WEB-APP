@@ -33,6 +33,8 @@ const goToPage = (page) => {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    background-color: #FFFFFF;
+    min-height: 84px;
   }
   .tab-button {
     padding: 0;
