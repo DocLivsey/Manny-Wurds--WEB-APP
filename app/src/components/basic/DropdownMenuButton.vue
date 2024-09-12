@@ -22,7 +22,7 @@ select {
   background: transparent url("../../assets/public/icon _Bars icon_.png") no-repeat !important;
   border-color: transparent;
   color: transparent;
-  max-height: 32px;
+  height: 32px;
 }
 option {
   background-color: var(--profile-menu-backgroung-color);

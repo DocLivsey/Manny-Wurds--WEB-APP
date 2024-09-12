@@ -16,6 +16,7 @@ import MenuButton from "./buttons/MenuButton.vue";
 header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   position: relative;
   top: 5vh;
   padding-left: 1em;
