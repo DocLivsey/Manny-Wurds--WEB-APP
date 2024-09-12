@@ -18,5 +18,10 @@ header {
   justify-content: space-between;
   position: relative;
   top: 5vh;
+  padding-left: 1em;
+  padding-right: 0.5em;
+}
+select {
+  justify-items: center;
 }
 </style>
