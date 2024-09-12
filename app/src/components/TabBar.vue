@@ -16,7 +16,7 @@ const goToPage = (page) => {
       </button>
     </div>
     <div class="bar">
-      <button @click="" class="tab-button">
+      <button @click="goToPage('MainMenuPage')" class="tab-button">
         <img alt="label.png" src="../assets/public/_TabBar-label.png">
       </button>
     </div>
