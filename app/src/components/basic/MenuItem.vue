@@ -41,8 +41,10 @@ defineProps({
   display: flex;
   background-color: var(--main-theme-gradient-top-color);
   border-radius: 20px;
+  border-color: transparent;
   width: 67.4%;
   align-self: center;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
 }
 .menu-img,
 .item-text {
