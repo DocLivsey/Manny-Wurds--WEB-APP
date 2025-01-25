@@ -3,8 +3,14 @@ import { defineComponent, ref } from 'vue';
 import MenuItem from '../basic/MenuItem.vue'
 import TimedQuizPage from "./modes/TimedQuizPage.vue";
 import {GameModes} from "@/enums.js";
+import {i} from "vite/dist/node/types.d-aGj9QkWt.js";
 
 export default defineComponent({
+  methods: {
+    i() {
+      return i
+    }
+  },
   components: {
     MenuItem,
     TimedQuizPage,
@@ -66,6 +72,7 @@ export default defineComponent({
                   :menu-title="item.title"
                   :menu-description="item.menuDescription"
                   :menu-img="item.menuImg"
+                  v-on:click="gameMode = item.gameMode;"
         />
       </div>
     </div>
