@@ -23,19 +23,22 @@ defineProps({
     <div class="menu-img">
       <img :src="menuImg" alt="menu-image">
     </div>
-    <div class="menu-title">
-      <h3>
-        {{ menuTitle }}
-      </h3>
-    </div>
-    <div class="menu-description">
-      {{ menuDescription }}
+    <div class="item-text">
+      <div class="menu-title">
+        <h3>
+          {{ menuTitle }}
+        </h3>
+      </div>
+      <div class="menu-description">
+        {{ menuDescription }}
+      </div>
     </div>
   </div>
 </template>
 
 <style scoped>
 .menu-item {
+  display: flex;
   background-color: var(--main-theme-gradient-top-color);
   border-radius: 20px;
   width: 67.4%;
