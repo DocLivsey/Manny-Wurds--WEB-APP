@@ -35,5 +35,10 @@ defineProps({
 </template>
 
 <style scoped>
-
+.menu-item {
+  background-color: var(--main-theme-gradient-top-color);
+  border-radius: 20px;
+  width: 67.4%;
+  align-self: center;
+}
 </style>
