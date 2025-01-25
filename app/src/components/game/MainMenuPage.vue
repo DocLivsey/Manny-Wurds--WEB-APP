@@ -66,7 +66,6 @@ export default defineComponent({
                   :menu-title="item.title"
                   :menu-description="item.menuDescription"
                   :menu-img="item.menuImg"
-                  :game-mode="item.gameMode"
         />
       </div>
     </div>
