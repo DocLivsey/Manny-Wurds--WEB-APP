@@ -27,7 +27,7 @@ h1 {
 .menu-page {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
 }
 .footer {
     display: flex;
