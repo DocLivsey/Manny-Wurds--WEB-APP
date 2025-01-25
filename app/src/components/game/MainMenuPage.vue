@@ -2,6 +2,7 @@
 import { defineComponent, ref } from 'vue';
 import MenuItem from '../basic/MenuItem.vue'
 import TimedQuizPage from "./modes/TimedQuizPage.vue";
+import {GameModes} from "@/enums.js";
 
 export default defineComponent({
   components: {
@@ -22,6 +23,7 @@ export default defineComponent({
   },
   data() {
     return {
+      gameMode: GameModes.NOT_SELECTED,
       menuItems: [
         {
           title: 'Timed quiz',
