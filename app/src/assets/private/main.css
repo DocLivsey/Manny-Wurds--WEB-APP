@@ -17,7 +17,8 @@ h1 {
     padding: 3%;
 }
 .home-page,
-.menu-page {
+.menu-page,
+.timed-quiz-page {
     background: linear-gradient(
             var(--main-theme-gradient-top-color),
             var(--main-theme-gradient-bottom-color)
