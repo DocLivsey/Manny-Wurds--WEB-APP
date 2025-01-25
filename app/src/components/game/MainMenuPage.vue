@@ -1,28 +1,52 @@
-<script setup>
+<script>
+import { defineComponent, ref } from 'vue';
 import MenuItem from '../basic/MenuItem.vue'
+import TimedQuizPage from "./modes/TimedQuizPage.vue";
 
-const menuItems = [
-  {
-    title: 'Timed quiz',
-    menuDescription: 'Guess the word in time',
-    menuImg: 'app/src/assets/public/timedquiz.png'
+export default defineComponent({
+  components: {
+    MenuItem,
+    TimedQuizPage,
   },
-  {
-    title: 'Attempted quiz',
-    menuDescription: 'Guess the word in a few tries',
-    menuImg: 'app/src/assets/public/attemptedquiz.png'
+  setup() {
+    const currentPage = ref('HomePage');
+
+    const changePage = (page) => {
+      currentPage.value = page;
+    };
+
+    return {
+      currentPage,
+      changePage,
+    };
   },
-  {
-    title: 'Daily quiz',
-    menuDescription: 'Guess the daily quiz word',
-    menuImg: 'app/src/assets/public/dailyquiz.png'
-  },
-  {
-    title: 'Online quiz',
-    menuDescription: 'Compete with others players',
-    menuImg: 'app/src/assets/public/onlinequiz.png'
+  data() {
+    return {
+      menuItems: [
+        {
+          title: 'Timed quiz',
+          menuDescription: 'Guess the word in time',
+          menuImg: 'app/src/assets/public/timedquiz.png'
+        },
+        {
+          title: 'Attempted quiz',
+          menuDescription: 'Guess the word in a few tries',
+          menuImg: 'app/src/assets/public/attemptedquiz.png'
+        },
+        {
+          title: 'Daily quiz',
+          menuDescription: 'Guess the daily quiz word',
+          menuImg: 'app/src/assets/public/dailyquiz.png'
+        },
+        {
+          title: 'Online quiz',
+          menuDescription: 'Compete with others players',
+          menuImg: 'app/src/assets/public/onlinequiz.png'
+        }
+      ]
+    }
   }
-]
+})
 </script>
 
 <template>
