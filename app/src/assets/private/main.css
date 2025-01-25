@@ -3,7 +3,7 @@
 * {
     margin: 0;
     --main-theme-gradient-top-color: #FFFFFF;
-    --main-theme-gradient-bottom-color: #00D1FF;
+    --main-theme-gradient-bottom-color: rgba(0, 209, 255, 0.7);
     --auth-form-backgound-color: #C7F5FF;
     --auth-form-font: 'Gilroy Bold', sans-serif;
     --profile-menu-backgroung-color: #2C2C2E;
