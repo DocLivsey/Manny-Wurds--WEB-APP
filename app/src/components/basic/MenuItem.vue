@@ -44,4 +44,13 @@ defineProps({
   width: 67.4%;
   align-self: center;
 }
+.menu-img,
+.item-text {
+  padding: 0.5rem;
+}
+.item-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
 </style>
