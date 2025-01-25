@@ -4,6 +4,7 @@ export const ButtonTypes = Object.freeze({
 })
 
 export const GameModes = Object.freeze({
+    NOT_SELECTED: 'NotSelected',
     TIMED_QUIZ: 'TimedQuiz',
     ATTEMPTED_QUIZ: 'AttemptedQuiz',
     DAILY_QUIZ: 'DailyQuiz',
