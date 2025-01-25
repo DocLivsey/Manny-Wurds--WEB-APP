@@ -16,7 +16,8 @@ h1 {
     text-align: center;
     padding: 3%;
 }
-.home-page {
+.home-page,
+.menu-page {
     background: linear-gradient(
             var(--main-theme-gradient-top-color),
             var(--main-theme-gradient-bottom-color)
