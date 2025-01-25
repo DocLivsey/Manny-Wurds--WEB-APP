@@ -19,7 +19,7 @@ defineProps({
 </script>
 
 <template>
-  <div class="menu-item">
+  <button class="menu-item">
     <div class="menu-img">
       <img :src="menuImg" alt="menu-image">
     </div>
@@ -33,7 +33,7 @@ defineProps({
         {{ menuDescription }}
       </div>
     </div>
-  </div>
+  </button>
 </template>
 
 <style scoped>
