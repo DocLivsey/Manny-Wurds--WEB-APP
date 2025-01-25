@@ -1,9 +1,9 @@
 <script setup>
-const gameMode = defineModel('game-mode', {})
+const gameModeModel = defineModel('gameMode', {})
 
 import {GameModes} from "@/enums.js";
 
-defineProps({
+const props = defineProps({
   menuTitle: {
     type: String,
     required: true,
@@ -28,7 +28,7 @@ defineProps({
 </script>
 
 <template>
-  <button class="menu-item" @click="">
+  <button class="menu-item" @click="gameModeModel = props.gameMode">
     <div class="menu-img">
       <img :src="menuImg" alt="menu-image">
     </div>

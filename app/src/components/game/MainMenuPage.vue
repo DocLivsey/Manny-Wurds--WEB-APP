@@ -5,11 +5,6 @@ import TimedQuizPage from "./modes/TimedQuizPage.vue";
 import {GameModes} from "@/enums.js";
 
 export default defineComponent({
-  methods: {
-    i() {
-      return i
-    }
-  },
   components: {
     MenuItem,
     TimedQuizPage,
@@ -71,7 +66,8 @@ export default defineComponent({
                   :menu-title="item.title"
                   :menu-description="item.menuDescription"
                   :menu-img="item.menuImg"
-                  v-model:gameMode="item.gameMode"
+                  :game-mode="item.gameMode"
+                  v-model:gameMode="gameMode"
         />
       </div>
     </div>
