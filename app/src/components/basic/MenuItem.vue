@@ -1,4 +1,6 @@
 <script setup>
+const gameMode = defineModel('game-mode', {})
+
 defineProps({
   menuTitle: {
     type: String,
@@ -19,7 +21,7 @@ defineProps({
 </script>
 
 <template>
-  <button class="menu-item">
+  <button class="menu-item" @click="">
     <div class="menu-img">
       <img :src="menuImg" alt="menu-image">
     </div>
