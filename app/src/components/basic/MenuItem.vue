@@ -1,4 +1,6 @@
 <script setup>
+import {GameModes} from "@/enums.js";
+
 defineProps({
   menuTitle: {
     type: String,
@@ -14,6 +16,11 @@ defineProps({
     type: String,
     required: true,
     default: '../../assets/public/_TabBar-label.png',
+  },
+  gameMode: {
+    type: GameModes,
+    required: true,
+    default: GameModes.NOT_SELECTED,
   }
 })
 </script>
