@@ -27,20 +27,25 @@ const menuItems = [
 
 <template>
   <div class="menu-page">
-    <div class="title-line">
-      Menu
-    </div>
-    <div class="menu-items-list">
-      <MenuItem v-for="item in menuItems"
-          :menu-title="item.title"
-          :menu-description="item.menuDescription"
-          :menu-img="item.menuImg"
-      />
+    <div class="menu-block">
+      <div class="title-line">
+        Menu
+      </div>
+      <div class="menu-items-list">
+        <MenuItem v-for="item in menuItems"
+                  :menu-title="item.title"
+                  :menu-description="item.menuDescription"
+                  :menu-img="item.menuImg"
+        />
+      </div>
     </div>
   </div>
 </template>
 
 <style scoped>
+.menu-block {
+  height: 45%;
+}
 .menu-items-list {
   display: flex;
   flex-direction: column;
@@ -49,5 +54,6 @@ const menuItems = [
 .title-line {
   text-transform: uppercase;
   text-align: center;
+  margin: 1.5rem;
 }
 </style>
