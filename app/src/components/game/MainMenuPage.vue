@@ -32,7 +32,7 @@ const menuItems = [
         Menu
       </div>
       <div class="menu-items-list">
-        <MenuItem v-for="item in menuItems"
+        <MenuItem class="menu-item" v-for="item in menuItems"
                   :menu-title="item.title"
                   :menu-description="item.menuDescription"
                   :menu-img="item.menuImg"
@@ -51,9 +51,12 @@ const menuItems = [
   flex-direction: column;
   justify-content: center;
 }
+.menu-item {
+  margin: 0.25rem;
+}
 .title-line {
   text-transform: uppercase;
   text-align: center;
-  margin: 1.5rem;
+  margin: 1.25rem;
 }
 </style>
