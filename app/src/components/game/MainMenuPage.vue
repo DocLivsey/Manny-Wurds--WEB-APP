@@ -28,26 +28,22 @@ export default defineComponent({
         {
           title: 'Timed quiz',
           menuDescription: 'Guess the word in time',
-          menuImg: 'app/src/assets/public/timedquiz.png',
-          gameMode: GameModes.TIMED_QUIZ,
+          menuImg: 'app/src/assets/public/timedquiz.png'
         },
         {
           title: 'Attempted quiz',
           menuDescription: 'Guess the word in a few tries',
-          menuImg: 'app/src/assets/public/attemptedquiz.png',
-          gameMode: GameModes.ATTEMPTED_QUIZ,
+          menuImg: 'app/src/assets/public/attemptedquiz.png'
         },
         {
           title: 'Daily quiz',
           menuDescription: 'Guess the daily quiz word',
-          menuImg: 'app/src/assets/public/dailyquiz.png',
-          gameMode: GameModes.DAILY_QUIZ,
+          menuImg: 'app/src/assets/public/dailyquiz.png'
         },
         {
           title: 'Online quiz',
           menuDescription: 'Compete with others players',
-          menuImg: 'app/src/assets/public/onlinequiz.png',
-          gameMode: GameModes.ONLINE_QUIZ,
+          menuImg: 'app/src/assets/public/onlinequiz.png'
         }
       ]
     }
