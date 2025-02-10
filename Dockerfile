@@ -6,7 +6,9 @@ COPY package.json .
 
 RUN npm install
 
-EXPOSE 3000
+COPY . .
+
+EXPOSE 5173
 
 
 FROM builder AS dev
