@@ -1,12 +1,12 @@
 <script setup>
-import MenuItem from '../basic/MenuItem.vue'
+import MenuItem from '@/components/basic/MenuItem.vue'
 </script>
 
 <template>
   <MenuItem
       menu-title="Timed quiz"
       menu-description="Guess the word in time"
-      menu-img="app/src/assets/public/timedquiz.png"
+      menu-img="@/assets/public/timedquiz.png"
   />
 </template>
 

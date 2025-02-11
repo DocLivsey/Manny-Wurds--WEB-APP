@@ -19,7 +19,7 @@ defineProps({
 
 <style scoped>
 select {
-  background: transparent url("../../assets/public/icon _Bars icon_.png") no-repeat !important;
+  background: transparent url("@/assets/public/icon _Bars icon_.png") no-repeat !important;
   border-color: transparent;
   color: transparent;
   height: 32px;

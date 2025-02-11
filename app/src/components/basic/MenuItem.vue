@@ -13,7 +13,7 @@ defineProps({
   menuImg: {
     type: String,
     required: true,
-    default: '../../assets/public/_TabBar-label.png',
+    default: '@/assets/public/_TabBar-label.png',
   }
 })
 </script>
