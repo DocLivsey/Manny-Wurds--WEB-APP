@@ -17,7 +17,7 @@ ENTRYPOINT ["npm"]
 CMD ["run", "dev"]
 
 
-FROM builder as prod
+FROM builder AS prod
 
 RUN npm run build
 
