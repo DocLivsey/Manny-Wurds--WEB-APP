@@ -67,8 +67,7 @@ export default defineComponent({
                   :menu-description="item.menuDescription"
                   :menu-img="item.menuImg"
                   :game-mode="item.gameMode"
-                  v-model:gameMode="gameMode"
-        />
+                  v-model:gameMode="gameMode" />
       </div>
     </div>
   </div>
