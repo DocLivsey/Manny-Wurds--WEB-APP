@@ -12,17 +12,17 @@ const goToPage = (page) => {
   <div class="tab-bar">
     <div class="bar">
       <button @click="goToPage('HomePage')" class="tab-button">
-        <img alt="home.png" src="../assets/public/_TabBar-home.png">
+        <img alt="home.png" src="@/assets/public/_TabBar-home.png">
       </button>
     </div>
     <div class="bar">
       <button @click="goToPage('MainMenuPage')" class="tab-button">
-        <img alt="label.png" src="../assets/public/_TabBar-label.png">
+        <img alt="label.png" src="@/assets/public/_TabBar-label.png">
       </button>
     </div>
     <div class="bar">
       <button @click="goToPage('ProfilePage')" class="tab-button">
-        <img alt="profile.png" src="../assets/public/_TabBar-profile.png">
+        <img alt="profile.png" src="@/assets/public/_TabBar-profile.png">
       </button>
     </div>
   </div>
