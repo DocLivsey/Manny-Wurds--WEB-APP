@@ -17,16 +17,12 @@ const props = defineProps({
   menuImg: {
     type: String,
     required: true,
-<<<<<<< HEAD
-    default: '../../assets/public/_TabBar-label.png',
+    default: '@/assets/public/_TabBar-label.png',
   },
   gameMode: {
     type: GameModes,
     required: true,
-    default: GameModes.NOT_SELECTED,
-=======
-    default: '@/assets/public/_TabBar-label.png',
->>>>>>> master
+    default: GameModes.NOT_SELECTED,    
   }
 })
 </script>
