@@ -1,6 +1,6 @@
 <script>
 import { defineComponent, ref } from 'vue';
-import MenuItem from '../basic/MenuItem.vue'
+import MenuItem from '../shared/MenuItem.vue'
 import TimedQuizPage from "./modes/TimedQuizPage.vue";
 import {GameModes} from "@/enums.js";
 

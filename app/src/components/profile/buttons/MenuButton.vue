@@ -1,5 +1,5 @@
 <script setup>
-import DropdownMenuButton from '@/../components/basic/DropdownMenuButton.vue'
+import DropdownMenuButton from '../../shared/DropdownMenuButton.vue'
 </script>
 
 <template>

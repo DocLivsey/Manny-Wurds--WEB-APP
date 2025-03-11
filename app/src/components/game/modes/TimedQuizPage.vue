@@ -3,9 +3,9 @@
 </script>
 
 <template>
-<div class="timed-quiz-page">
+  <div class="timed-quiz-page">
 
-</div>
+  </div>
 </template>
 
 <style scoped>
